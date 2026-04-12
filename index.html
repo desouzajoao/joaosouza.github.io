@@ -2,8 +2,11 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Minha Fotografia</title>
+  <title>Fronteiras de Papel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonte mais elegante pro título -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -16,34 +19,44 @@
     .container {
       max-width: 900px;
       margin: 40px auto;
-      padding: 20px;
+      padding: 30px;
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
       text-align: center;
     }
 
     h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
       margin-bottom: 10px;
     }
 
     .autor {
       font-size: 14px;
       color: #777;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
 
     img {
       max-width: 100%;
       height: auto;
-      border-radius: 8px;
-      margin-bottom: 20px;
+      border-radius: 10px;
+      margin-bottom: 25px;
     }
 
     .descricao {
       font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.7;
       text-align: justify;
+      margin-bottom: 30px;
+    }
+
+    .frase-final {
+      font-style: italic;
+      font-size: 20px;
+      margin-top: 40px;
+      color: #444;
     }
 
     footer {
@@ -57,16 +70,22 @@
 <body>
   <div class="container">
     
-    <h1>TÍTULO DA FOTOGRAFIA</h1>
-    <div class="autor">Por: SEU NOME</div>
+    <h1>Fronteiras de Papel</h1>
+    <div class="autor">por joão souza</div>
 
-    <img src="foto.jpg" alt="Descrição da imagem">
+    <img src="foto.jpg" alt="Fronteiras de Papel">
 
     <div class="descricao">
       <p>
-        ESCREVA AQUI A DESCRIÇÃO DA FOTOGRAFIA. Você pode contextualizar a imagem,
-        explicar o momento, o local, a intenção artística ou jornalística.
+        Um pedaço de algodão tensionado é a única estrutura que separa o voo da queda livre. 
+        Abaixo, o chão avermelhado demarca onde o direito à cidade esbarra no tijolo cru; 
+        no ar, ícones de papel tentam driblar o peso de quem nasce nas bordas do mapa. 
+        A linha repuxa. Onde o homem impõe o limite do passo, de quem é o vento que ousa cruzar a fronteira?
       </p>
+    </div>
+
+    <div class="frase-final">
+      "Se as fronteiras são cravadas na terra, qual é o limite do que consegue voar?"
     </div>
 
     <footer>
